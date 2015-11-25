@@ -115,7 +115,7 @@ public class FXMLController{
         new Scalar(127, 0, 255),    //7. purple/pink
         new Scalar(127, 0, 127),    //8. dark purple
         new Scalar(255, 255, 255),  //9. White
-        new Scalar(0, 0, 0)}; //Black
+        new Scalar(0, 0, 0)}; //Blackkkk
     
     static ObjekList allObjek = new ObjekLinkedList();
     static Objek detectedObjek;
