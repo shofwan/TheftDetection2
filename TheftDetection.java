@@ -1,14 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package theftdetection2;
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
 import org.opencv.core.Core;
 
@@ -23,8 +13,6 @@ public class TheftDetection extends Application{
     /**
      * The main class for a JavaFX application. It creates and handles the main
      * window with its resources (style, graphics, etc.).
-     * 
-     * 
      */
     @Override
     public void start(Stage primaryStage){
