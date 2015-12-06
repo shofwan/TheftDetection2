@@ -4,3 +4,13 @@ Program is built by implementing background subtraction and contour detection al
 
 After the program is created, we can conclude that programs that implement background subtraction and contour detection can detect motor vehicle theft. Different environtment and place, requires distinct configuration of variables, and no variable value that suits all conditions to detect theft. However, the program that has been made were very sensitive to illumination changes, because the value of learning rate is set to 0. This makes this kind of programs are not suitable for use in places that exposed to illumination changes, such as day and night.
 
+Currently used file:
+-FXML.fxml
+-FXMLController.java
+-Objek.java
+-ObjekLinkedList.java
+-ObjekList.java
+-TheftDetection.java
+
+preview how to use it: https://www.youtube.com/watch?v=1oa_TbabcCQ
+
