@@ -160,7 +160,11 @@ private void startCamera(){
     if (!this.cameraActive){
         // start the video capture
         //this.capture.open(Integer.parseInt(fileName.getText()));
-        this.capture.open(fileName.getText());
+        if(fileName.getText().length()==1){
+            int in = Integer.parseInt(fileName.getText());
+            this.capture.open(in);
+        }
+        else this.capture.open(fileName.getText());
 
         //this.capture.open(0);
         //is the video stream available?
@@ -168,6 +172,7 @@ private void startCamera(){
             this.cameraActive = true;
 
             FXMLController.FPS = this.capture.get(Videoio.CAP_PROP_FPS);
+            if(FPS==0) FPS=30;
             System.out.println("FPS = "+FPS);
             FXMLController.height = this.capture.get(Videoio.CAP_PROP_FRAME_HEIGHT);
             FXMLController.width  = this.capture.get(Videoio.CAP_PROP_FRAME_WIDTH);
